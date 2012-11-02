@@ -1,0 +1,120 @@
+body {
+  background: url("../img/stars.png");
+  height: 1000px;
+}
+
+.universe {
+  height: 500px;
+  margin-bottom: 80px;
+  position: relative;
+}
+
+.planet {
+  background: #f0f0f0;
+  border-radius: 50%;
+  height: 80px;
+  width: 80px;
+  margin-bottom: 10px;
+}
+
+.sun {
+  background: #eff500;
+  box-shadow: 1px 1px 62px #CD1E0D, inset -3px 0px 99px #CD1E0D;
+  height: 500px;
+  position: absolute;
+  left: -10% ;
+  top: 50%;
+  width: 500px;
+}
+
+.mercury {
+  background: #B4B4B4;
+  box-shadow: inset -10px 10px 21px black;
+  height: 45px;
+  left: 201px;
+  position: absolute;
+  top: 68px;
+  width: 45px;
+}
+
+.venus {
+  background: #9b6624;
+  box-shadow: inset -16px 16px 21px black;
+  left: 300px;
+  position: absolute;
+  top: 100px;
+}
+
+.earth {
+  background: #8d9e6a;
+  box-shadow: inset -18px 11px 21px black;
+  height: 75px;
+  left: 410px;
+  position: absolute;
+  top: 182px;
+  width: 75px;
+}
+
+.mars {
+  background: #EFD69E;
+  box-shadow: inset -8px 6px 21px black;
+  height: 30px;
+  left: 499px;
+  top: 290px;
+  position: absolute;
+  width: 30px;
+}
+
+.jupiter {
+  background: #732F2C;
+  box-shadow: inset -10px 3px 21px black;
+  height: 135px;
+  left: 526px;
+  position: absolute;
+  top: 330;
+  width: 135px;
+}
+
+.saturn {
+  background: #5c4e33;
+  box-shadow: inset -10px 0px 21px black;;
+  height: 112px;
+  left: 610px;
+  position: absolute;
+  top: 485px;
+  width: 112px;
+}
+
+.uranus {
+  background: #ACC5D9;
+  box-shadow: inset -9px -2px 21px black;
+  height: 95px;
+  left: 673px;
+  position: absolute;
+  top: 621px;
+  width: 95px;
+}
+
+.neptune {
+  background: #194B7E;
+  box-shadow: inset -8px -5px 21px black;
+  height: 95px;
+  left: 719px;
+  position: absolute;
+  top: 735px;
+  width: 95px;
+}
+
+.pluto {
+  background: #E3E3E3;
+  box-shadow: inset -8px -3px 21px black;
+  height: 20px;
+  left: 796px;
+  position: absolute;
+  top: 879px;
+  width: 20px;
+}
+
+
+
+
